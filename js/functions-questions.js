@@ -12,7 +12,7 @@ function printCountryDetails()
 }
 
 /*
-2. Look at the following function changePage().
+2. Look at the following function, changePage().
 a) Add line of code that will call the function changePage. The page should change colour to red.
 b) Add a parameter to this function that will specify the colour the background should change to.
 c) Add a second parameter that will allow the user to specify the font for the text in the page. To change the font you will need to use document.body.style.fontFamily. 
@@ -53,7 +53,7 @@ function awardDegree(credits)
 
 
 /*
-5. Write a function that will add convert a measurement in miles to kilometers (1 mile = 1.60934km). Here's some code to show how this function could be used.
+5. Write a function that will convert a measurement in miles to kilometers (1 mile = 1.60934km). Here's some code to show how this function could be used.
 */
 
 
@@ -63,7 +63,7 @@ function awardDegree(credits)
 
 
 /*
-6. Look at the following code that calls a function calcAverage(). 
+6. Look at the following code that calls a function, calcAverage(). 
 The calcAverage() function should calculate the average of the three numbers that are passed as arguments and return the average. 
 Write the calcAverage() function and test this works. Here's some code to show how this function could be used.
 */
@@ -75,7 +75,7 @@ Write the calcAverage() function and test this works. Here's some code to show h
 
 /*
 6. 
-a) Previously we created a program for calculating a student’s overall module mark based on their HTML and JavaScript scores. 
+a) Previously we created a program for calculating a student's overall module mark based on their HTML and JavaScript scores. 
 Write a function that will accept two arguments (HTML and JavaScript mark) and return an overall module mark. 
 Here's some code to show how this function could be used.
 */
