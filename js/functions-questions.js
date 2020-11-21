@@ -82,6 +82,10 @@ printCountryDetails(countries);
 */
 
 /*
+These are harder questions. You can see them as being optional. You only need to attempt them if you want more practice and want to challenge yourself.
+*/
+
+/*
 8. Write a function called calcAverage(). The calcAverage() function should accept three numbers as arguments. The function should calculates the average of the three numbers return the mean average of these numbers.The following shows example code that would call this function.
 */
 
