@@ -1,8 +1,11 @@
 /*
 1.Look at the following function printCountryDetails().
-a) Write a line of code that will call this function, (slide 4)
-b) Add a parameter to the function, call the parameter name. When the function is called an argument should specify the name of the country e.g. printCountryDetails("England"); (slide 7)
-c) Add additional parameters for the continent, capital city and population of the country. (slides 7-10)
+a) Write a line of code that will call this function.
+b) Add a parameter to the function, call the parameter name. When the function is called an argument should specify the name of the country e.g. 
+
+printCountryDetails("England"); 
+
+c) Add additional parameters for the continent, capital city and population of the country. 
 d) Make several function calls to print out the details of different countries
 */
 
@@ -13,9 +16,9 @@ function printCountryDetails()
 
 /*
 2. Look at the following function, changePage().
-a) Add line of code that will call the function changePage. The page should change colour to red.(slide 4)
-b) Add a parameter to this function that will specify the colour the background should change to.(slide 7)
-c) Add a second parameter that will allow the user to specify the font for the text in the page. To change the font you will need to use document.body.style.fontFamily.(slides 7-10)
+a) Add line of code that will call the function changePage. The page should change colour to red.
+b) Add a parameter to this function that will specify the colour the background should change to.
+c) Add a second parameter that will allow the user to specify the font for the text in the page. To change the font you will need to use document.body.style.fontFamily.
 */
 
 
@@ -28,7 +31,7 @@ function changePage()
 
 /*
 3. Look at the following function getWeather(), it returns a string.
-Write a line of code that will call this function and display the returned value in the console (slide 11)
+Write a line of code that will call this function and display the returned value in the console 
 */
 
 function getWeather(){
@@ -36,7 +39,7 @@ function getWeather(){
 }
 
 /*
-4. The following function converts a measurement in miles to kilometres (1 mile = 1.60934km). Write a program that will ask the user for a distance in miles, call this function to convert the miles to kilometres, and then display the distance in kilometres in the console. (slide 13)
+4. The following function converts a measurement in miles to kilometres (1 mile = 1.60934km). Write a program that will ask the user for a distance in miles, call this function to convert the miles to kilometres, and then display the distance in kilometres in the console. 
 */
 
 function convertMilesToKm(miles)
@@ -48,7 +51,7 @@ function convertMilesToKm(miles)
 5. At the end of your degree course, the University needs to decide if it will award you a degree.
 In order to obtain a degree you need to have accumulated 360 credits.
 Write a program that will ask the user how many credits they have.
-The program should call awardDegree() and feedback to the user telling them if they can be awarded a degree. (slide 16)
+The program should call awardDegree() and feedback to the user telling them if they can be awarded a degree. 
 */
 
 function awardDegree(credits)
@@ -61,14 +64,14 @@ function awardDegree(credits)
 }
 
 /*
-6. Modify your answer to Question 1 so that the function accepts a single argument. This argument should be a country with continent, capital city and population properties. The function should print the country's details. The following shows example code that would call this function. (slide 17)
+6. Modify your answer to Question 1 so that the function accepts a single argument. This argument should be a country with continent, capital city and population properties. The function should print the country's details. The following shows example code that would call this function. 
 */
 
 //const country = {name : "England", capital : "London", continent : "Europe", population: 53000000};
 // printCountryDetails(country);
 
 /*
-7. Modify your answer to Question 1 again so that the function accepts a single argument. This time the  argument should be an array of country objects. The following shows example code that would call this function. (slide 21)
+7. Modify your answer to Question 1 again so that the function accepts a single argument. This time the  argument should be an array of country objects. The following shows example code that would call this function. 
 */
 
 /*
@@ -122,7 +125,7 @@ function getNewStudent()
 }
 function addStudents()
 {
-	const students=[];
+  const students=[];
   const howMany=parseInt(prompt("How many students details would you like to enter?"));
   for(let i=0;i<howMany;i++){
       const student = getNewStudent();
