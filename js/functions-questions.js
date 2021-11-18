@@ -68,7 +68,7 @@ function awardDegree(credits)
 
 /*
 5) Look at the following getPositiveNumbers() function. It accepts an array of numbers and returns only those numbers that are greater than zero.
-a) Write a line of code that will call this function. Use a forEach loop output the elements of the returned array.
+a) Write some code that will call this function. Use a forEach loop output the elements of the returned array.
 */
 
 function getPositiveNumbers(arrOfNumbers)
