@@ -42,7 +42,7 @@ function convertMilesToKm(miles)
 
 /*
 3) The following function, addTwoNumbers(), adds two numbers together and returns the result.
-Write a line of code that will call this function. Test it works by outputting the result in the console.
+Write a program that will ask the user for two numbers, call this function, and then display the total in the console.
 */
 
 function addTwoNumbers(num1,num2)
@@ -99,8 +99,8 @@ Use the parameter in the console.log() message. When the function is called an a
 To test your function, uncomment the following lines.
 */
 
-//printCountryDetails("France"); //outputs England is a country in Europe.
-//printCountryDetails("England") //outputs France is a country in Europe.
+//printCountryDetails("France"); //outputs 'England is a country in Europe.'
+//printCountryDetails("England") //outputs 'France is a country in Europe.'
 
 
 /*
@@ -119,7 +119,7 @@ To test your function, uncomment the following lines.
 */
 
 // const country = {name : "England", capital : "London", continent : "Europe", population: 56000000};
-// printCountryDetails(country); //outputs England is a country in Europe with a population of 56000000. London is the capital city. 
+// printCountryDetails(country); //outputs 'England is a country in Europe with a population of 56000000. London is the capital city.' 
 
 /*
 8. Modify your answer to Question 7 so that the function accepts a single argument. 
@@ -182,7 +182,7 @@ The function will then print the name of each student in this array to the conso
 The function doesn't need to return anything. Modify the answer to (a) so that you use the printStudents() function.
 c) Create an additional function called getHighestMarkStudent(). 
 getHighestMarkStudent() will need to accept a single argument, an array of student objects. 
-The function should then return the student with the highest mark.
+The function should then return the student with the highest mark. Test this works.
 */
 
 /*
