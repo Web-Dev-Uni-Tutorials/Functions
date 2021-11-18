@@ -82,6 +82,8 @@ function getPositiveNumbers(arrOfNumbers)
 	return posNumbers;
 }
 
+//These first questions are all about writing your own functions
+
 /*
 6.Look at the following function printCountryDetails().
 a) Write a line of code that will call this function.
