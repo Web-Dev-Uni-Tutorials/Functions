@@ -27,7 +27,7 @@ Write a line of code that will call this function and display the returned value
 */
 
 function getWeather(){
-	return "Wet and cold";
+	return "wet and cold";
 }
 
 /*
