@@ -165,7 +165,7 @@ To test your function, uncomment the following lines.
 
 /*
 11. Write a function called filterImageFileNames(). 
-It should accept an array of filename and returns only those filenames that have a .png, .jpg or .jpeg extension. 
+It should accept an array of filename and returns only those filenames that have a .png or .jpg extension. 
 To test your function, uncomment the following lines.
 */
 
