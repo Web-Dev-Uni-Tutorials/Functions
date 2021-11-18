@@ -91,7 +91,7 @@ a) Write a line of code that will call this function.
 
 function printCountryDetails()
 {
-	console.log("England is a country in Europe.");
+	console.log(`England is a country in Europe.`);
 }
 
 
