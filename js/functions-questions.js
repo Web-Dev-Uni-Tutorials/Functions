@@ -41,7 +41,7 @@ function convertMilesToKm(miles)
 }
 
 /*
-3) The following function, addTwoNumbers(), adds two numbers together and returns the result.
+5. The following function, addTwoNumbers(), adds two numbers together and returns the result.
 Write a program that will ask the user for two numbers, call this function, and then display the total in the console.
 */
 
@@ -52,7 +52,7 @@ function addTwoNumbers(num1,num2)
 
 
 /*
-4. At the end of your degree course, the University needs to decide if it will award you a degree.
+6. At the end of your degree course, the University needs to decide if it will award you a degree.
 In order to obtain a degree you need to have accumulated 360 credits.
 Write a program that will ask the user how many credits they have.
 The program should call awardDegree() and feedback to the user telling them if they can be awarded a degree.
@@ -67,7 +67,7 @@ function awardDegree(credits)
 }
 
 /*
-5) Look at the following getPositiveNumbers() function. It accepts an array of numbers and returns only those numbers that are greater than zero.
+7. Look at the following getPositiveNumbers() function. It accepts an array of numbers and returns only those numbers that are greater than zero.
 a) Write some code that will call this function. Use a forEach loop output the elements of the returned array.
 */
 
@@ -82,10 +82,10 @@ function getPositiveNumbers(arrOfNumbers)
 	return posNumbers;
 }
 
-//These first questions are all about writing your own functions
+//These questions are all about writing your own functions
 
 /*
-6.Look at the following function printCountryDetails().
+8. Look at the following function printCountryDetails().
 a) Write a line of code that will call this function.
 */
 
@@ -114,7 +114,7 @@ To test your function, uncomment the following lines.
 // printCountryDetails("France", "Europe", "Paris", 65000000); //outputs France is a country in Europe with a population of 65000000. Paris is the capital city. 
 
 /*
-7. Modify your answer to Question 6 so that the function accepts a single argument. 
+9. Modify your answer to Question 6 so that the function accepts a single argument. 
 This argument should be a country object with continent, capital city and population properties. 
 The function should print the country's details.
 To test your function, uncomment the following lines.
@@ -124,7 +124,7 @@ To test your function, uncomment the following lines.
 // printCountryDetails(country); //outputs 'England is a country in Europe with a population of 56000000. London is the capital city.' 
 
 /*
-8. Modify your answer to Question 7 so that the function accepts a single argument. 
+10. Modify your answer to Question 7 so that the function accepts a single argument. 
 This time the argument should be an array of country objects. 
 To test your function, uncomment the following lines.
 */
@@ -140,7 +140,7 @@ printCountryDetails(countries); //displays the details for each country in the c
 */
 
 /*
-9. Write a function called convertInchesToCms(). 
+11. Write a function called convertInchesToCms(). 
 The function needs to accept a single argument, a measurement in inches. 
 The function should convert the measurement in inches into centimetres (1 inch = 2.54 cms) and return the result. 
 To test your function, uncomment the following lines.
@@ -151,7 +151,7 @@ To test your function, uncomment the following lines.
 // console.log(`${inches} is ${cms}.`)
 
 /*
-10. Write a function called getAvgThreeNums(). 
+12. Write a function called getAvgThreeNums(). 
 The function needs to accept a three arguments, all numbers. 
 The function should calculate the mean average of the numbers and return the result. 
 To test your function, uncomment the following lines.
@@ -164,7 +164,7 @@ To test your function, uncomment the following lines.
 // console.log(`The average of ${num1}, ${num2} and ${num3} is ${avg}.`)
 
 /*
-11. Write a function called filterImageFileNames(). 
+13. Write a function called filterImageFileNames(). 
 It should accept an array of filename and returns only those filenames that have a .png or .jpg extension. 
 To test your function, uncomment the following lines.
 */
@@ -177,7 +177,7 @@ To test your function, uncomment the following lines.
 // })
 
 /*
-12. Uncomment the following code. Write some additional code that will:
+14. Uncomment the following code. Write some additional code that will:
 a) Call the functions addStudents(), getPassMark() and getPassingStudents(), and then print out the list of passing students in the console.
 b) Create an additional function called printStudents(). printStudents() will need to accept a single argument, an array of student objects. 
 The function will then print the name of each student in this array to the console. 
@@ -227,7 +227,7 @@ function getPassingStudents(arrOfStudents,passMark)
 */
 
 /*
-13. Previously we looked at a program that calculates an employee's wage based on the number of hours they have worked.
+15. Previously we looked at a program that calculates an employee's wage based on the number of hours they have worked.
 Re-structure this code to use a number of functions - getUserHours(), validHours(), calcWages() and printWages().
 Here's some example code to show how these functions could be used
 */
@@ -241,7 +241,7 @@ Here's some example code to show how these functions could be used
 // }
 
 /*
-14.  Write a function called typeOfTriangle(). 
+16.  Write a function called typeOfTriangle(). 
 It should accept three arguments that represent the length of the three sides of a triangle.
 The function should work out if the triangle is an equilateral triangle (all sides the same length), an isosceles triangle (two sides of the same length), or a scaline triangle (all sides different lengths. 
 The function should return a string, either 'equilateral', 'scalene' or 'isosceles'. 
