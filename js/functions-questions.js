@@ -157,9 +157,9 @@ The function should calculate the mean average of the numbers and return the res
 To test your function, uncomment the following lines.
 */
 
-// const num1 = prompt("Enter a number");
-// const num2 = prompt("Enter another number");
-// const num3 = prompt("Enter a third number");
+// const num1 = parseInt(prompt("Enter a number"));
+// const num2 = parseInt(prompt("Enter another number"));
+// const num3 = parseInt(prompt("Enter a third number"));
 // const avg = getAvgThreeNums(num1,num2,num3);
 // console.log(`The average of ${num1}, ${num2} and ${num3} is ${avg}.`)
 
