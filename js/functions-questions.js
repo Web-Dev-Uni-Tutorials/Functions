@@ -114,7 +114,7 @@ To test your function, uncomment the following lines.
 // printCountryDetails("France", "Europe", "Paris", 65000000); //outputs France is a country in Europe with a population of 65000000. Paris is the capital city. 
 
 /*
-9. Modify your answer to Question 6 so that the function accepts a single argument. 
+9. Modify your answer to Question 8 so that the function accepts a single argument. 
 This argument should be a country object with continent, capital city and population properties. 
 The function should print the country's details.
 To test your function, uncomment the following lines.
@@ -124,7 +124,7 @@ To test your function, uncomment the following lines.
 // printCountryDetails(country); //outputs 'England is a country in Europe with a population of 56000000. London is the capital city.' 
 
 /*
-10. Modify your answer to Question 7 so that the function accepts a single argument. 
+10. Modify your answer to Question 9 so that the function accepts a single argument. 
 This time the argument should be an array of country objects. 
 To test your function, uncomment the following lines.
 */
