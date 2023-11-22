@@ -12,8 +12,8 @@ function showMsg()
 
 
 // 2. Look at the following function showMsgWithParam(). 
-// Write a line of code that will call this function so that the message 'functions are great' is displayed in the console.
-
+// a) Write a line of code that will call this function so that the message 'functions are great' is displayed in the console.
+// b) Make several calls to the function, each time passing a different value to msg. 
 
 function showMsgWithParam(msg)
 {
@@ -94,20 +94,15 @@ function printCountryDetails()
 }
 
 
-// b) Add a parameter to the function, call the parameter name. 
-// Use this parameter in the console.log() message. 
-// When the function is called an argument should specify the name of the country. 
+// b) Add a parameter to the function, call the parameter countryName. 
+// Call the function passing a value into the countryName parameter.
 // To test your function, uncomment the following lines.
-
 
 //printCountryDetails("France"); //outputs 'England is a country in Europe.'
 //printCountryDetails("England") //outputs 'France is a country in Europe.'
 
-
-
 // c) Add additional parameters for the continent, capital city and population of the country. 
 // To test your function, uncomment the following lines.
-
 
 // printCountryDetails("England", "Europe", "London", 56000000); //outputs England is a country in Europe with a population of 56000000. London is the capital city. 
 // printCountryDetails("France", "Europe", "Paris", 65000000); //outputs France is a country in Europe with a population of 65000000. Paris is the capital city. 
@@ -118,16 +113,12 @@ function printCountryDetails()
 // The function should print the country's details.
 // To test your function, uncomment the following lines.
 
+// const country = {name : "England", capital : "London", continent : "Europe", population: 53000000};
+// printCountryDetails(country); //outputs 'England is a country in Europe with a population of 53000000. London is the capital city.' 
 
-// const country = {name : "England", capital : "London", continent : "Europe", population: 56000000};
-// printCountryDetails(country); //outputs 'England is a country in Europe with a population of 56000000. London is the capital city.' 
 
-
-// 10. Modify your answer to Question 9 so that the function accepts a single argument. 
-// This time the argument should be an array of country objects. 
+// 10. Modify your answer to Question 9 so that the function accepts an array of country objects as the argument. 
 // To test your function, uncomment the following lines.
-
-
 
 // const countries=[
 //     {name : "England", capital : "London", continent : "Europe", population: 56000000},
@@ -136,8 +127,6 @@ function printCountryDetails()
 // ]
 
 // printCountryDetails(countries); //displays the details for each country in the console.
-
-
 
 // 11. Write a function called convertInchesToCms(). 
 // The function needs to accept a single argument, a measurement in inches. 
@@ -224,7 +213,7 @@ function printCountryDetails()
 
 // 15. Previously we looked at a program that calculates an employee's wage based on the number of hours they have worked.
 // Re-structure this code to use a number of functions - getUserHours(), validHours(), calcWages() and printWages().
-// Here's some example code to show how these functions could be used
+// Here's some example code to show how these functions could be used.
 
 
 // const hours = getUserHours();
